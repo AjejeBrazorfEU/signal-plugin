@@ -1,6 +1,6 @@
 # signal-plugin
 
-Simple plugin to get the signal (LTE,WiFi,Acoustic) signal strength.
+Simple Ionic plugin to get the signal strength(LTE,WiFi,Acoustic).
 
 ## Disclaimer
 
@@ -11,6 +11,22 @@ The plugin only works for Android and has not been completely tested, use it car
 ```bash
 npm install signal-plugin
 npx cap sync
+```
+
+## Example
+
+The function getSignalInfo() return an object containing the value of the 3 measured signals:
+- `WIFI`
+- `LTE`
+- `MICROPHONE`
+
+```TypeScript
+async getSignalInfo(){
+    this.signalInfo = (await SignalPlugin.getSignalInfo()).value;
+    console.log("WIFI: " + this.signalInfo.WIFI);
+    console.log("LTE: " + this.signalInfo.LTE);
+    console.log("MICROPHONE: " + this.signalInfo.MICROPHONE);
+}
 ```
 
 ## API
