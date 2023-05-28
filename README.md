@@ -1,6 +1,10 @@
 # signal-plugin
 
-Simple plugin to get the signal (LTE,WiFi) signal strength
+Simple plugin to get the signal (LTE,WiFi,Acoustic) signal strength.
+
+## Disclaimer
+
+The plugin only works for Android and has not been completely tested, use it carefully!!
 
 ## Install
 
