@@ -1,7 +1,7 @@
 {
   "name": "signal-plugin",
-  "version": "0.0.1",
-  "description": "Simple plugin to get the signal (LTE,WiFi) signal strength",
+  "version": "0.0.2",
+  "description": "Simple Capacitor plugin to get the signal strength(LTE,WiFi,Acoustic).",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",
   "types": "dist/esm/index.d.ts",

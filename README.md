@@ -1,6 +1,6 @@
 # signal-plugin
 
-Simple Ionic plugin to get the signal strength(LTE,WiFi,Acoustic).
+Simple Capacitor plugin to get the signal strength(LTE,WiFi,Acoustic).
 
 ## Disclaimer
 
